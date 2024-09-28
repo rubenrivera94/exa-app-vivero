@@ -1,0 +1,33 @@
+﻿<Application x:Class="ViveroGUI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ViveroGUI"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+
+        <!-- Estilo global para ToolTip de error -->
+        <Style x:Key="TextBoxErrorTemplateToolTip" TargetType="TextBox">
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="True">
+                    <Setter  Property="ToolTip" Value="{Binding RelativeSource={x:Static RelativeSource.Self},
+                            Path=(Validation.Errors)[0].ErrorContent}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+
+        <!-- Estilo global para TextBlock de error -->
+        <ControlTemplate x:Key="TextBoxErrorTemplate">
+            <Border BorderBrush="Red" BorderThickness="2">
+                <Grid>
+                    <AdornedElementPlaceholder/>
+                    <TextBlock 
+                        Text="{Binding [0].ErrorContent}" 
+                        Foreground="Red" VerticalAlignment="Center"
+                        HorizontalAlignment="Right" Margin="0,0,4,0"/>
+                </Grid>
+            </Border>
+        </ControlTemplate>
+    </Application.Resources>
+</Application>

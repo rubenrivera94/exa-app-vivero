@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="El_SaltoModelStoreContainer" CdmEntityContainer="El_SaltoEntities">
+    <EntitySetMapping Name="vw_Plantas">
+      <EntityTypeMapping TypeName="El_SaltoModel.vw_Plantas">
+        <MappingFragment StoreEntitySet="vw_Plantas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NombreComun" ColumnName="NombreComun" />
+          <ScalarProperty Name="NombreCientifico" ColumnName="NombreCientifico" />
+          <ScalarProperty Name="TipoPlanta" ColumnName="TipoPlanta" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="TiempoRiego" ColumnName="TiempoRiego" />
+          <ScalarProperty Name="CantidadAgua" ColumnName="CantidadAgua" />
+          <ScalarProperty Name="Epoca" ColumnName="Epoca" />
+          <ScalarProperty Name="EsVenenosa" ColumnName="EsVenenosa" />
+          <ScalarProperty Name="EsAutoctona" ColumnName="EsAutoctona" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="spCreateUser" FunctionName="El_SaltoModel.Store.spCreateUser" />
+    <FunctionImportMapping FunctionImportName="spLogin" FunctionName="El_SaltoModel.Store.spLogin" />
+    <FunctionImportMapping FunctionImportName="spObtenerCantidadPlantasAutoctonas" FunctionName="El_SaltoModel.Store.spObtenerCantidadPlantasAutoctonas" />
+    <FunctionImportMapping FunctionImportName="spObtenerCantidadPlantasVenenosas" FunctionName="El_SaltoModel.Store.spObtenerCantidadPlantasVenenosas" />
+    <FunctionImportMapping FunctionImportName="spPlantaDeleteById" FunctionName="El_SaltoModel.Store.spPlantaDeleteById" />
+    <FunctionImportMapping FunctionImportName="spPlantaSave" FunctionName="El_SaltoModel.Store.spPlantaSave" />
+    <FunctionImportMapping FunctionImportName="spPlantaUpdateById" FunctionName="El_SaltoModel.Store.spPlantaUpdateById" />
+  </EntityContainerMapping>
+</Mapping>

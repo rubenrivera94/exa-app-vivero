@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="El_SaltoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="vw_Plantas">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="NombreComun" />
+      <PropertyRef Name="NombreCientifico" />
+      <PropertyRef Name="TipoPlanta" />
+      <PropertyRef Name="TiempoRiego" />
+      <PropertyRef Name="CantidadAgua" />
+      <PropertyRef Name="Epoca" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NombreComun" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NombreCientifico" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TipoPlanta" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="TiempoRiego" Type="Int32" Nullable="false" />
+    <Property Name="CantidadAgua" Type="Int32" Nullable="false" />
+    <Property Name="Epoca" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EsVenenosa" Type="Boolean" />
+    <Property Name="EsAutoctona" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="El_SaltoEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="vw_Plantas" EntityType="Self.vw_Plantas" />
+    <FunctionImport Name="spCreateUser">
+      <Parameter Name="username" Mode="In" Type="String" />
+      <Parameter Name="password" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="spLogin" ReturnType="Collection(String)">
+      <Parameter Name="username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="spObtenerCantidadPlantasAutoctonas" ReturnType="Collection(Int32)" />
+    <FunctionImport Name="spObtenerCantidadPlantasVenenosas" ReturnType="Collection(Int32)" />
+    <FunctionImport Name="spPlantaDeleteById">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="spPlantaSave">
+      <Parameter Name="NombreComun" Mode="In" Type="String" />
+      <Parameter Name="NombreCientifico" Mode="In" Type="String" />
+      <Parameter Name="TipoPlanta" Mode="In" Type="String" />
+      <Parameter Name="Descripcion" Mode="In" Type="String" />
+      <Parameter Name="TiempoRiego" Mode="In" Type="Int32" />
+      <Parameter Name="CantidadAgua" Mode="In" Type="Int32" />
+      <Parameter Name="Epoca" Mode="In" Type="String" />
+      <Parameter Name="EsVenenosa" Mode="In" Type="Boolean" />
+      <Parameter Name="EsAutoctona" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="spPlantaUpdateById">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="NombreComun" Mode="In" Type="String" />
+      <Parameter Name="NombreCientifico" Mode="In" Type="String" />
+      <Parameter Name="TipoPlanta" Mode="In" Type="String" />
+      <Parameter Name="Descripcion" Mode="In" Type="String" />
+      <Parameter Name="TiempoRiego" Mode="In" Type="Int32" />
+      <Parameter Name="CantidadAgua" Mode="In" Type="Int32" />
+      <Parameter Name="Epoca" Mode="In" Type="String" />
+      <Parameter Name="EsVenenosa" Mode="In" Type="Boolean" />
+      <Parameter Name="EsAutoctona" Mode="In" Type="Boolean" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,12 @@
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroData\bin\Debug\ViveroData.dll.config
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroData\bin\Debug\ViveroData.dll
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroData\bin\Debug\ViveroData.pdb
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroData\bin\Debug\EntityFramework.dll
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroData\bin\Debug\EntityFramework.SqlServer.dll
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroData\bin\Debug\EntityFramework.xml
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroData\bin\Debug\EntityFramework.SqlServer.xml
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroData\obj\Debug\ViveroData.csproj.AssemblyReference.cache
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroData\obj\Debug\ViveroData.csproj.CoreCompileInputs.cache
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroData\obj\Debug\ViveroData.csproj.Up2Date
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroData\obj\Debug\ViveroData.dll
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroData\obj\Debug\ViveroData.pdb

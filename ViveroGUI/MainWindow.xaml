@@ -1,0 +1,29 @@
+﻿<Window x:Class="ViveroGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ViveroGUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <!-- Definición de la ventana principal de la aplicación -->
+    <DockPanel>
+        <Grid>
+            <!-- Menú principal ubicado en la parte superior de la ventana -->
+            <Menu VerticalAlignment="Top" HorizontalAlignment="Left" Width="2040" Padding="10,0" Height="30">
+                <!-- Menú desplegable para las opciones relacionadas con las Plantas -->
+                <!-- Opción para agregar nueva planta-->
+                <MenuItem Header="Agregar Nueva Planta" Click="menuAgregarPlanta_Click"/>
+                    <!-- Opción para listar todas las plantas-->                    
+                <MenuItem Header="Listar Plantas" Click="menuListarPlantas_Click"/>
+
+            </Menu>
+            <!-- Frame para mostrar el contenido de las páginas según la navegación -->
+            <Frame x:Name="mainFrame" Margin="0,25,0,0"/>
+        </Grid>
+        <!-- Grilla de datos deshabilitada por defecto -->
+        <DataGrid x:Name="dgListarPlantas" Width="Auto" Height="Auto" IsEnabled="False" DockPanel.Dock="Top"/>
+    </DockPanel>
+    
+</Window>

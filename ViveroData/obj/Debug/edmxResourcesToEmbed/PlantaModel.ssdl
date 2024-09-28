@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="El_SaltoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'El_Salto.dbo.vw_Plantas' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="vw_Plantas">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="NombreComun" />
+      <PropertyRef Name="NombreCientifico" />
+      <PropertyRef Name="TipoPlanta" />
+      <PropertyRef Name="TiempoRiego" />
+      <PropertyRef Name="CantidadAgua" />
+      <PropertyRef Name="Epoca" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreComun" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="NombreCientifico" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="TipoPlanta" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="255" />
+    <Property Name="TiempoRiego" Type="int" Nullable="false" />
+    <Property Name="CantidadAgua" Type="int" Nullable="false" />
+    <Property Name="Epoca" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="EsVenenosa" Type="bit" />
+    <Property Name="EsAutoctona" Type="bit" />
+  </EntityType>
+  <Function Name="fxObtenerCantidadPlantasAutoctonas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="fxObtenerCantidadPlantasVenenosas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="spCreateUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="username" Type="varchar" Mode="In" />
+    <Parameter Name="password" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="spLogin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="username" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="spObtenerCantidadPlantasAutoctonas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="spObtenerCantidadPlantasVenenosas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="spPlantaDeleteById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="spPlantaSave" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NombreComun" Type="varchar" Mode="In" />
+    <Parameter Name="NombreCientifico" Type="varchar" Mode="In" />
+    <Parameter Name="TipoPlanta" Type="varchar" Mode="In" />
+    <Parameter Name="Descripcion" Type="varchar" Mode="In" />
+    <Parameter Name="TiempoRiego" Type="int" Mode="In" />
+    <Parameter Name="CantidadAgua" Type="int" Mode="In" />
+    <Parameter Name="Epoca" Type="varchar" Mode="In" />
+    <Parameter Name="EsVenenosa" Type="bit" Mode="In" />
+    <Parameter Name="EsAutoctona" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="spPlantaUpdateById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="NombreComun" Type="varchar" Mode="In" />
+    <Parameter Name="NombreCientifico" Type="varchar" Mode="In" />
+    <Parameter Name="TipoPlanta" Type="varchar" Mode="In" />
+    <Parameter Name="Descripcion" Type="varchar" Mode="In" />
+    <Parameter Name="TiempoRiego" Type="int" Mode="In" />
+    <Parameter Name="CantidadAgua" Type="int" Mode="In" />
+    <Parameter Name="Epoca" Type="varchar" Mode="In" />
+    <Parameter Name="EsVenenosa" Type="bit" Mode="In" />
+    <Parameter Name="EsAutoctona" Type="bit" Mode="In" />
+  </Function>
+  <EntityContainer Name="El_SaltoModelStoreContainer">
+    <EntitySet Name="vw_Plantas" EntityType="Self.vw_Plantas" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vw_Plantas].[Id] AS [Id], 
+    [vw_Plantas].[NombreComun] AS [NombreComun], 
+    [vw_Plantas].[NombreCientifico] AS [NombreCientifico], 
+    [vw_Plantas].[TipoPlanta] AS [TipoPlanta], 
+    [vw_Plantas].[Descripcion] AS [Descripcion], 
+    [vw_Plantas].[TiempoRiego] AS [TiempoRiego], 
+    [vw_Plantas].[CantidadAgua] AS [CantidadAgua], 
+    [vw_Plantas].[Epoca] AS [Epoca], 
+    [vw_Plantas].[EsVenenosa] AS [EsVenenosa], 
+    [vw_Plantas].[EsAutoctona] AS [EsAutoctona]
+    FROM [dbo].[vw_Plantas] AS [vw_Plantas]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

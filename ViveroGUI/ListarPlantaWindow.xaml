@@ -1,0 +1,58 @@
+﻿<Window x:Class="ViveroGUI.ListarPlantaWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ViveroGUI"
+        mc:Ignorable="d"
+        Title="ListarPlantaWindow" Height="800" Width="800"
+        WindowStartupLocation="CenterOwner">
+    
+    <Grid>
+        <TextBlock FontSize="22" FontWeight="DemiBold" Text="Lista de Plantas" Margin="0,10,0,20" HorizontalAlignment="Center"/>
+
+        <DataGrid x:Name="dataGridPlantas" AutoGenerateColumns="False" IsReadOnly="True" Margin="10,50">
+            <DataGrid.Columns>
+                <!-- Columna para el Nombre Común de la Planta -->
+                <DataGridTextColumn Header="Nombre Común" Binding="{Binding NombreComun}" Width="*"/>
+
+                <!-- Columna para el Nombre Científico de la Planta -->
+                <DataGridTextColumn Header="Nombre Científico" Binding="{Binding NombreCientifico}" Width="*"/>
+
+                <!-- Columna para el Tipo de Planta -->
+                <DataGridTextColumn Header="Tipo de Planta" Binding="{Binding TipoPlanta}" Width="*"/>
+
+                <!-- Columna para la Descripción -->
+                <DataGridTextColumn Header="Descripción" Binding="{Binding Descripcion}" Width="*"/>
+
+                <!-- Columna para el Tiempo de Riego (días) -->
+                <DataGridTextColumn Header="Tiempo de Riego (días)" Binding="{Binding TiempoRiego}" Width="*"/>
+
+                <!-- Columna para la Cantidad de Agua (ml) -->
+                <DataGridTextColumn Header="Cantidad de Agua (ml)" Binding="{Binding CantidadAgua}" Width="*"/>
+
+                <!-- Columna para la Época -->
+                <DataGridTextColumn Header="Época" Binding="{Binding Epoca}" Width="*"/>
+
+                <!-- Columna para indicar si es Venenosa -->
+                <DataGridCheckBoxColumn Header="Es Venenosa" Binding="{Binding EsVenenosa}" Width="*"/>
+
+                <!-- Columna para indicar si es Autóctona -->
+                <DataGridCheckBoxColumn Header="Es Autóctona" Binding="{Binding EsAutoctona}" Width="*"/>
+
+                <!-- Columna para las acciones (Actualizar/Eliminar) -->
+                <DataGridTemplateColumn Header="Acciones" Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <Button x:Name="btnActualizar" Content="Actualizar" Click="btnActualizar_Click" Margin="5,0"/>
+                                <Button x:Name="btnEliminar" Content="Eliminar" Click="btnEliminar_Click" Margin="5,0"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+
+</Window>

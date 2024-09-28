@@ -1,0 +1,68 @@
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\ViveroGUI.csproj.AssemblyReference.cache
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\AgregarPlantaWindow.g.cs
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\MainWindow.g.cs
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\App.g.cs
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\ViveroGUI_MarkupCompile.cache
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\ViveroGUI_MarkupCompile.lref
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\bin\Debug\ViveroGUI.exe.config
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\bin\Debug\ViveroGUI.exe
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\bin\Debug\ViveroGUI.pdb
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\bin\Debug\EntityFramework.dll
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\bin\Debug\EntityFramework.SqlServer.dll
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\bin\Debug\ViveroNegocio.exe
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\bin\Debug\ViveroData.dll
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\bin\Debug\ViveroNegocio.pdb
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\bin\Debug\ViveroNegocio.exe.config
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\bin\Debug\EntityFramework.xml
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\bin\Debug\EntityFramework.SqlServer.xml
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\bin\Debug\ViveroData.pdb
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\bin\Debug\ViveroData.dll.config
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\App.baml
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\AgregarPlantaWindow.baml
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\MainWindow.baml
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\ViveroGUI.g.resources
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\ViveroGUI.Properties.Resources.resources
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\ViveroGUI.csproj.GenerateResource.cache
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\ViveroGUI.csproj.CoreCompileInputs.cache
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\ViveroGUI.csproj.Up2Date
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\ViveroGUI.exe
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\ViveroGUI.pdb
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\ActualizarPlantaWindow.g.cs
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\ListarPlantaWindow.g.cs
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\ActualizarPlantaWindow.baml
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas\ViveroGUI\obj\Debug\ListarPlantaWindow.baml
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\ViveroGUI.csproj.AssemblyReference.cache
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\ListarPlantaWindow.g.cs
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\MainWindow.g.cs
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\App.g.cs
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\ViveroGUI_MarkupCompile.cache
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\ViveroGUI_MarkupCompile.lref
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\ViveroGUI.exe
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\ViveroGUI.pdb
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\bin\Debug\ViveroGUI.exe.config
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\bin\Debug\ViveroGUI.exe
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\bin\Debug\ViveroGUI.pdb
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\bin\Debug\EntityFramework.dll
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\bin\Debug\EntityFramework.SqlServer.dll
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\bin\Debug\ViveroNegocio.exe
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\bin\Debug\ViveroData.dll
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\bin\Debug\ViveroNegocio.pdb
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\bin\Debug\ViveroNegocio.exe.config
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\bin\Debug\EntityFramework.xml
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\bin\Debug\EntityFramework.SqlServer.xml
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\bin\Debug\ViveroData.pdb
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\bin\Debug\ViveroData.dll.config
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\ActualizarPlantaWindow.g.cs
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\AgregarPlantaWindow.g.cs
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\App.baml
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\ActualizarPlantaWindow.baml
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\AgregarPlantaWindow.baml
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\ListarPlantaWindow.baml
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\MainWindow.baml
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\ViveroGUI.g.resources
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\ViveroGUI.Properties.Resources.resources
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\ViveroGUI.csproj.GenerateResource.cache
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\ViveroGUI.csproj.CoreCompileInputs.cache
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\ViveroGUI.csproj.Up2Date
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\LoginWindow.g.cs
+D:\escritorio\Programacion Componentes Escritorio\Examen_App_Plantas - copia\ViveroGUI\obj\Debug\LoginWindow.baml
